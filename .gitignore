@@ -1,0 +1,18 @@
+# Secrets: never commit API keys (.env.example only)
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+
+# Build / test artifacts
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# Sync-conflict copies created by cloud folders
+*-DESKTOP-*
+*-HOME-PC*
